@@ -1,0 +1,170 @@
+{
+    "papers": [
+        {
+            "id": "P01",
+            "title": "An Efficient Approach to EEG-Based Emotion Recognition using LSTM Network",
+            "year": 2020,
+            "authors": ["Anubhav", "Debarshi Nath", "Mrigank Singh", "Divyashikha Sethia", "Diksha Kalra", "S.Indu"],
+            "institution": "Delhi Technological University",
+            "methods": ["LSTM", "Band Power"],
+            "dataset": "DEAP",
+            "domain": "Deep Learning"
+        },
+        {
+            "id": "P02",
+            "title": "Analysis of EEG Signals in the DEAP Dataset for Emotion Recognition using Deep Learning Algorithms",
+            "year": 2024,
+            "authors": ["Ranjita D. Gaddanakeri", "Manavi M Naik", "Sujata Kulkarni", "Prakashgoud Patil"],
+            "institution": "KLE Technological University",
+            "methods": ["CNN", "LSTM"],
+            "dataset": "DEAP",
+            "domain": "Deep Learning"
+        },
+        {
+            "id": "P03",
+            "title": "EEG-based Emotion Detection Using Unsupervised Transfer Learning",
+            "year": 2019,
+            "authors": ["Hector A. Gonzalez", "Jerald Yoo", "Ibrahim M. Elfadel"],
+            "institution": ["Technische Universität Dresden", "National University of Singapore", "Khalifa University"],
+            "methods": ["Transfer Learning", "Unsupervised Learning"],
+            "dataset": "DEAP",
+            "domain": "Deep Learning"
+        },
+        {
+            "id": "P04",
+            "title": "EEG-based on Emotion Recognition Using Machine Learning",
+            "year": 2023,
+            "authors": ["Yucheng Zhang"],
+            "institution": "Huazhong Agricultural University",
+            "methods": ["SVM", "DWT", "PCA"],
+            "dataset": "DEAP",
+            "domain": "Machine Learning"
+        },
+        {
+            "id": "P05",
+            "title": "Merged LSTM Model for emotion classification using EEG signals",
+            "year": 2019,
+            "authors": ["Anumit Garg", "Ashna Kapoor", "Anterpreet Kaur Bedi", "Ramesh K. Sunkaria"],
+            "institution": "Dr. B.R. Ambedkar National Institute of Technology",
+            "methods": ["LSTM", "Dimensionality Reduction"],
+            "dataset": "DEAP",
+            "domain": "Deep Learning"
+        },
+        {
+            "id": "P06",
+            "title": "EEG-based Emotion Recognition based on DEAP Dataset with Genetic Algorithm Augmented Multi-Layer Perceptron",
+            "year": 2023,
+            "authors": ["Sujata Kulkarni", "Prakashgoud Patil"],
+            "institution": "KLE Technological University",
+            "methods": ["Genetic Algorithm", "MLP", "PSD"],
+            "dataset": "DEAP",
+            "domain": "Deep Learning"
+        },
+        {
+            "id": "P07",
+            "title": "EEG-based Emotion Recognition: An In-depth Analysis using DEAP and SEED Datasets",
+            "year": 2024,
+            "authors": ["Sonu Kumar Jha", "Somaraju Suvvari", "Mukesh Kumar"],
+            "institution": "National Institute of Technology Patna",
+            "methods": ["KNN", "MLP"],
+            "dataset": ["DEAP", "SEED"],
+            "domain": "Machine Learning and Deep Learning"
+        },
+        {
+            "id": "P08",
+            "title": "Assessing Basic Emotion via Machine Learning: Comparative Analysis of Number of Basic Emotions and Algorithms",
+            "year": 2024,
+            "authors": ["Caryn Vowles", "Mackenzie Collins", "T. Claire Davies"],
+            "institution": "Queen's University",
+            "methods": ["SVM", "Decision Trees", "Clustering"],
+            "dataset": "DEAP",
+            "domain": "Machine Learning"
+        },
+        {
+            "id": "P09",
+            "title": "Optimizing Emotion Classification from EEG Signals: A Comparative Analysis of Optimization Techniques on the DEAP Dataset",
+            "year": 2024,
+            "authors": ["Janki Broker", "Kashish Shah", "Heet Shah", "Anupama Jawale", "Ruta Prabhu"],
+            "institution": "Narsee Monjee College of Commerce and Economics",
+            "methods": ["Optimization Techniques"],
+            "dataset": "DEAP",
+            "domain": "Deep Learning"
+        },
+        {
+            "id": "P10",
+            "title": "Domain Adaptation Techniques for EEG-Based Emotion Recognition: A Comparative Study on Two Public Datasets",
+            "year": 2019,
+            "authors": ["Zirui Lan", "Olga Sourina", "Lipo Wang", "Reinhold Scherer", "Gernot R. Müller-Putz"],
+            "institution": ["Nanyang Technological University", "Graz University of Technology"],
+            "methods": ["Domain Adaptation", "Transfer Learning"],
+            "dataset": ["DEAP", "SEED"],
+            "domain": "Deep Learning"
+        },
+        {
+            "id": "P11",
+            "title": "DEAP: A Database for Emotion Analysis Using Physiological Signals",
+            "year": 2011,
+            "authors": ["Sander Koelstra", "Christian Muhl", "Mohammad Soleymani", "Jong-Seok Lee", "Ashkan Yazdani", "Touradj Ebrahimi", "Thierry Pun", "Anton Nijholt", "Ioannis Patras"],
+            "institution": ["Queen Mary University of London", "University of Twente", "University of Geneva", "Yonsei University", "EPFL"],
+            "methods": ["EEG", "Physiological Signals"],
+            "dataset": "DEAP",
+            "domain": "EEG Signals"
+        },
+        {
+            "id": "P12",
+            "title": "EmHM A Novel Hybrid Model for the Emotion Recognition based on EEG Signals",
+            "year": 2023,
+            "authors": ["Ramnivas Sharma", "Hemant Kumar Meena"],
+            "institution": "Malaviya National Institute of Technology Jaipur",
+            "methods": ["Hybrid Model", "Entropy", "Feature Extraction"],
+            "dataset": "DEAP",
+            "domain": "Deep Learning"
+        },
+        {
+            "id": "P13",
+            "title": "Emotion Detection Mastery: EEG Signal Analysis with Balanced vs. Unbalanced Data",
+            "year": 2024,
+            "authors": ["Jadov Menaka", "Sreelekshmi I G", "Alwin Poulose"],
+            "institution": ["IISER Thiruvananthapuram", "University of Kerala"],
+            "methods": ["Deep Learning", "Transformers", "CNN", "Attention Mechanisms"],
+            "dataset": ["DEAP", "SEED"],
+            "domain": "Deep Learning"
+        }
+    ],
+    "methods": [
+        "LSTM",
+        "CNN",
+        "SVM",
+        "Transfer Learning",
+        "Genetic Algorithm",
+        "MLP",
+        "KNN",
+        "Decision Trees",
+        "DWT",
+        "PCA",
+        "RNN",
+        "Transformers",
+        "Attention Mechanisms",
+        "Domain Adaptation"
+    ],
+    "datasets": [
+        "DEAP",
+        "SEED"
+    ],
+    "features": [
+        "EEG",
+        "Power Spectral Density",
+        "Band Power",
+        "Differential Entropy",
+        "Discrete Wavelet Transform",
+        "Feature Extraction",
+        "Electroencephalography"
+    ],
+    "emotions": [
+        "Valence",
+        "Arousal",
+        "Emotion Recognition",
+        "Positive Emotion",
+        "Negative Emotion"
+    ]
+}

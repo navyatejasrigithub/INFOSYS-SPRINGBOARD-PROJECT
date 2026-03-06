@@ -1,0 +1,299 @@
+{
+    "relationships": [
+        {
+            "source": "P01",
+            "type": "uses",
+            "target": "LSTM"
+        },
+        {
+            "source": "P01",
+            "type": "uses",
+            "target": "Band Power"
+        },
+        {
+            "source": "P01",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P02",
+            "type": "uses",
+            "target": "CNN"
+        },
+        {
+            "source": "P02",
+            "type": "uses",
+            "target": "LSTM"
+        },
+        {
+            "source": "P02",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P03",
+            "type": "uses",
+            "target": "Transfer Learning"
+        },
+        {
+            "source": "P03",
+            "type": "uses",
+            "target": "Unsupervised Learning"
+        },
+        {
+            "source": "P03",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P04",
+            "type": "uses",
+            "target": "SVM"
+        },
+        {
+            "source": "P04",
+            "type": "uses",
+            "target": "DWT"
+        },
+        {
+            "source": "P04",
+            "type": "uses",
+            "target": "PCA"
+        },
+        {
+            "source": "P04",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P05",
+            "type": "uses",
+            "target": "LSTM"
+        },
+        {
+            "source": "P05",
+            "type": "uses",
+            "target": "Dimensionality Reduction"
+        },
+        {
+            "source": "P05",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P06",
+            "type": "uses",
+            "target": "Genetic Algorithm"
+        },
+        {
+            "source": "P06",
+            "type": "uses",
+            "target": "MLP"
+        },
+        {
+            "source": "P06",
+            "type": "uses",
+            "target": "PSD"
+        },
+        {
+            "source": "P06",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P07",
+            "type": "uses",
+            "target": "KNN"
+        },
+        {
+            "source": "P07",
+            "type": "uses",
+            "target": "MLP"
+        },
+        {
+            "source": "P07",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P07",
+            "type": "uses",
+            "target": "SEED"
+        },
+        {
+            "source": "P08",
+            "type": "uses",
+            "target": "SVM"
+        },
+        {
+            "source": "P08",
+            "type": "uses",
+            "target": "Decision Trees"
+        },
+        {
+            "source": "P08",
+            "type": "uses",
+            "target": "Clustering"
+        },
+        {
+            "source": "P08",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P09",
+            "type": "uses",
+            "target": "Optimization Techniques"
+        },
+        {
+            "source": "P09",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P10",
+            "type": "uses",
+            "target": "Domain Adaptation"
+        },
+        {
+            "source": "P10",
+            "type": "uses",
+            "target": "Transfer Learning"
+        },
+        {
+            "source": "P10",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P10",
+            "type": "uses",
+            "target": "SEED"
+        },
+        {
+            "source": "P11",
+            "type": "introduces",
+            "target": "DEAP"
+        },
+        {
+            "source": "P11",
+            "type": "uses",
+            "target": "EEG"
+        },
+        {
+            "source": "P11",
+            "type": "uses",
+            "target": "Physiological Signals"
+        },
+        {
+            "source": "P12",
+            "type": "uses",
+            "target": "Hybrid Model"
+        },
+        {
+            "source": "P12",
+            "type": "uses",
+            "target": "Entropy"
+        },
+        {
+            "source": "P12",
+            "type": "uses",
+            "target": "Feature Extraction"
+        },
+        {
+            "source": "P12",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P13",
+            "type": "uses",
+            "target": "Deep Learning"
+        },
+        {
+            "source": "P13",
+            "type": "uses",
+            "target": "Transformers"
+        },
+        {
+            "source": "P13",
+            "type": "uses",
+            "target": "CNN"
+        },
+        {
+            "source": "P13",
+            "type": "uses",
+            "target": "Attention Mechanisms"
+        },
+        {
+            "source": "P13",
+            "type": "uses",
+            "target": "DEAP"
+        },
+        {
+            "source": "P13",
+            "type": "uses",
+            "target": "SEED"
+        },
+        {
+            "source": "LSTM",
+            "type": "belongs_to",
+            "target": "Deep Learning"
+        },
+        {
+            "source": "CNN",
+            "type": "belongs_to",
+            "target": "Deep Learning"
+        },
+        {
+            "source": "RNN",
+            "type": "belongs_to",
+            "target": "Deep Learning"
+        },
+        {
+            "source": "SVM",
+            "type": "belongs_to",
+            "target": "Machine Learning"
+        },
+        {
+            "source": "KNN",
+            "type": "belongs_to",
+            "target": "Machine Learning"
+        },
+        {
+            "source": "Decision Trees",
+            "type": "belongs_to",
+            "target": "Machine Learning"
+        },
+        {
+            "source": "Genetic Algorithm",
+            "type": "belongs_to",
+            "target": "Optimization"
+        },
+        {
+            "source": "Transfer Learning",
+            "type": "belongs_to",
+            "target": "Deep Learning"
+        },
+        {
+            "source": "Domain Adaptation",
+            "type": "belongs_to",
+            "target": "Transfer Learning"
+        },
+        {
+            "source": "DEAP",
+            "type": "contains",
+            "target": "EEG"
+        },
+        {
+            "source": "DEAP",
+            "type": "contains",
+            "target": "Physiological Signals"
+        },
+        {
+            "source": "SEED",
+            "type": "contains",
+            "target": "EEG"
+        }
+    ]
+}

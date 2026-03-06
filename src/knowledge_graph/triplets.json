@@ -1,0 +1,100 @@
+{
+    "triplets": [
+        {"subject": "P01", "relation": "uses_method", "object": "LSTM"},
+        {"subject": "P01", "relation": "uses_feature", "object": "Band Power"},
+        {"subject": "P01", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P01", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "P02", "relation": "uses_method", "object": "CNN"},
+        {"subject": "P02", "relation": "uses_method", "object": "LSTM"},
+        {"subject": "P02", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P02", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "P03", "relation": "uses_method", "object": "Transfer Learning"},
+        {"subject": "P03", "relation": "uses_method", "object": "Unsupervised Learning"},
+        {"subject": "P03", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P03", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "P04", "relation": "uses_method", "object": "SVM"},
+        {"subject": "P04", "relation": "uses_method", "object": "DWT"},
+        {"subject": "P04", "relation": "uses_method", "object": "PCA"},
+        {"subject": "P04", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P04", "relation": "belongs_to_domain", "object": "Machine Learning"},
+        
+        {"subject": "P05", "relation": "uses_method", "object": "LSTM"},
+        {"subject": "P05", "relation": "uses_method", "object": "Dimensionality Reduction"},
+        {"subject": "P05", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P05", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "P06", "relation": "uses_method", "object": "Genetic Algorithm"},
+        {"subject": "P06", "relation": "uses_method", "object": "MLP"},
+        {"subject": "P06", "relation": "uses_feature", "object": "PSD"},
+        {"subject": "P06", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P06", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "P07", "relation": "uses_method", "object": "KNN"},
+        {"subject": "P07", "relation": "uses_method", "object": "MLP"},
+        {"subject": "P07", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P07", "relation": "uses_dataset", "object": "SEED"},
+        {"subject": "P07", "relation": "belongs_to_domain", "object": "Machine Learning and Deep Learning"},
+        
+        {"subject": "P08", "relation": "uses_method", "object": "SVM"},
+        {"subject": "P08", "relation": "uses_method", "object": "Decision Trees"},
+        {"subject": "P08", "relation": "uses_method", "object": "Clustering"},
+        {"subject": "P08", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P08", "relation": "belongs_to_domain", "object": "Machine Learning"},
+        
+        {"subject": "P09", "relation": "uses_method", "object": "Optimization Techniques"},
+        {"subject": "P09", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P09", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "P10", "relation": "uses_method", "object": "Domain Adaptation"},
+        {"subject": "P10", "relation": "uses_method", "object": "Transfer Learning"},
+        {"subject": "P10", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P10", "relation": "uses_dataset", "object": "SEED"},
+        {"subject": "P10", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "P11", "relation": "introduces", "object": "DEAP"},
+        {"subject": "P11", "relation": "uses_signal", "object": "EEG"},
+        {"subject": "P11", "relation": "uses_signal", "object": "Physiological Signals"},
+        {"subject": "P11", "relation": "belongs_to_domain", "object": "EEG Signals"},
+        
+        {"subject": "P12", "relation": "uses_method", "object": "Hybrid Model"},
+        {"subject": "P12", "relation": "uses_feature", "object": "Entropy"},
+        {"subject": "P12", "relation": "uses_feature", "object": "Feature Extraction"},
+        {"subject": "P12", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P12", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "P13", "relation": "uses_method", "object": "Deep Learning"},
+        {"subject": "P13", "relation": "uses_method", "object": "Transformers"},
+        {"subject": "P13", "relation": "uses_method", "object": "CNN"},
+        {"subject": "P13", "relation": "uses_method", "object": "Attention Mechanisms"},
+        {"subject": "P13", "relation": "uses_dataset", "object": "DEAP"},
+        {"subject": "P13", "relation": "uses_dataset", "object": "SEED"},
+        {"subject": "P13", "relation": "belongs_to_domain", "object": "Deep Learning"},
+        
+        {"subject": "LSTM", "relation": "is_type_of", "object": "Deep Learning"},
+        {"subject": "CNN", "relation": "is_type_of", "object": "Deep Learning"},
+        {"subject": "RNN", "relation": "is_type_of", "object": "Deep Learning"},
+        {"subject": "SVM", "relation": "is_type_of", "object": "Machine Learning"},
+        {"subject": "KNN", "relation": "is_type_of", "object": "Machine Learning"},
+        {"subject": "Decision Trees", "relation": "is_type_of", "object": "Machine Learning"},
+        {"subject": "Genetic Algorithm", "relation": "is_type_of", "object": "Optimization"},
+        {"subject": "Transfer Learning", "relation": "is_type_of", "object": "Deep Learning"},
+        {"subject": "Domain Adaptation", "relation": "is_type_of", "object": "Transfer Learning"},
+        
+        {"subject": "DEAP", "relation": "contains", "object": "EEG"},
+        {"subject": "DEAP", "relation": "contains", "object": "Physiological Signals"},
+        {"subject": "SEED", "relation": "contains", "object": "EEG"},
+        
+        {"subject": "EEG", "relation": "measures", "object": "Brain Activity"},
+        {"subject": "Band Power", "relation": "extracts_from", "object": "EEG"},
+        {"subject": "PSD", "relation": "extracts_from", "object": "EEG"},
+        {"subject": "DWT", "relation": "extracts_from", "object": "EEG"},
+        {"subject": "Differential Entropy", "relation": "extracts_from", "object": "EEG"},
+        
+        {"subject": "Valence", "relation": "is_dimension_of", "object": "Emotion"},
+        {"subject": "Arousal", "relation": "is_dimension_of", "object": "Emotion"},
+        {"subject": "Emotion Recognition", "relation": "targets", "object": "Emotion"}
+    ]
+}
