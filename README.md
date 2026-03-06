@@ -1,2 +1,3 @@
 # INFOSYS SPRINGBOARD PROJECT
 
+![Alt text](https://github.com/navyatejasrigithub/INFOSYS-SPRINGBOARD-PROJECT/blob/d3a76ac7c44115970b42b100d1dbe8d915b07347/Screenshot%202026-03-06%20235904.png)
